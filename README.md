@@ -3,7 +3,7 @@
 This repository contains PoC project that creates AWS CDK stack with Cognito user Pool then creates 
 there first user using CDK trigger.
 
-# Ho wto use
+# How to use
 
 * Install AWS CDK
 * Install Node.js
