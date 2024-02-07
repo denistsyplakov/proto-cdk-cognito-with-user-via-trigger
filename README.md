@@ -1,14 +1,11 @@
-# Welcome to your CDK TypeScript project
+# Intro
 
-This is a blank project for CDK development with TypeScript.
+This repository contains PoC project that creates AWS CDK stack with Cognito user Pool then creates 
+there first user using CDK trigger.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+# Ho wto use
 
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+* Install AWS CDK
+* Install Node.js
+* Run `npm i` in the root folder and in `./lib/lambdas/`
+* Run `cdk deploy` in the root folder

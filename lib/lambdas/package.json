@@ -1,0 +1,27 @@
+{
+  "name": "lambdas",
+  "version": "1.0.0",
+  "description": "Lamdas for the project",
+  "private": true,
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "*",
+    "@types/uuid": "*"
+  },
+  "dependencies": {
+    "aws-sdk": "*",
+    "uuid": "*",
+    "aws-lambda": "^1.0.7",
+    "@aws-crypto/sha256-js": "^5.2.0",
+    "@aws-sdk/credential-provider-node": "^3.484.0",
+    "@aws-sdk/types": "^3.468.0",
+    "@aws-sdk/client-sqs": "^3.485.0",
+    "@smithy/eventstream-codec": "^2.0.16",
+    "@smithy/protocol-http": "^3.0.12",
+    "@smithy/signature-v4": "^2.0.19",
+    "@smithy/util-utf8": "^2.0.2",
+    "@aws-sdk/client-cognito-identity-provider": "^3.507.0",
+    "generate-password": "^1.7.1",
+    "@aws-sdk/client-secrets-manager": "^3.507.0"
+  }
+}
